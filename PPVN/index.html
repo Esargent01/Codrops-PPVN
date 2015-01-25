@@ -13,6 +13,7 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/jquery.vide.min.js"></script>
 		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load --> 
 		<script src="js/modernizr.custom.25376.js"></script>
 	</head>
@@ -38,13 +39,16 @@
 				</div><!-- wrapper -->
 			</div><!-- /container -->
 			<nav class="outer-nav left vertical">
-				<a href="#" class="icon-home">Home</a>
+				<a href="#" class="icon-home" data-vide-bg="video/dew">Home</a>
 				<a href="#" class="icon-news">News</a>
 				<a href="#" class="icon-image">Images</a>
 				<a href="#" class="icon-upload">Uploads</a>
 				<a href="#" class="icon-star">Favorites</a>
 				<a href="#" class="icon-mail">Messages</a>
 				<a href="#" class="icon-lock">Security</a>
+				<video autoplay loop style="visibility: visible; margin: auto; position: absolute; z-index: -1; top: 50%; left: 250%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 1300%; height: auto;">
+    				<source src="video/light.mp4" type="video/mp4">
+    			</video>
 			</nav>
 
 			<!--video autoplay loop muted poster="http://techbeasts.com/wp-content/uploads/2014/04/Wallpaper-HD.jpg" class="vidbg">

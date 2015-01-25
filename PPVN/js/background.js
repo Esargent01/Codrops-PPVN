@@ -1,8 +1,16 @@
-$(document).ready(function(){
+/*-------------------------------------------------------------------------------------------------------------------------------
+**-------------------------------------------------------------------------------------------------------------------------------
+**This file was made for having the option for large background images on hover for the menu items. :) Just incase!
+**This was the original idea, but I decided to go with a video instead, thanks to VodkaBear's Vide.js.
+**-------------------------------------------------------------------------------------------------------------------------------
+**-------------------------------------------------------------------------------------------------------------------------------
+
+
+/*$(document).ready(function(){
   $(".icon-home").hover(function(){
-    $(".perspective.modalview ").css("background","url(http://techbeasts.com/wp-content/uploads/2014/04/Wallpaper-HD.jpg) no-repeat").css("background-size","cover");/*this is the background image*/
+    $(".perspective.modalview ").css("background","url(http://techbeasts.com/wp-content/uploads/2014/04/Wallpaper-HD.jpg) no-repeat").css("background-size","cover");
     },function(){
-    $(".perspective.modalview ").css("background","none");/*this chages the background back to gray :D */
+    $(".perspective.modalview ").css("background","none");/
   });
   $(".icon-news").hover(function(){
     $(".perspective.modalview ").css("background","url(http://images6.fanpop.com/image/photos/34800000/Nature-Wallpaper-daydreaming-34811106-1024-768.jpg) no-repeat").css("background-size","cover");
@@ -34,4 +42,4 @@ $(document).ready(function(){
     },function(){
     $(".perspective.modalview ").css("background","none");
   });
-});
+});*/
